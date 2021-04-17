@@ -1,0 +1,39 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local cmds = Instance.new("TextButton")
+local title = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.Position = UDim2.new(0.710110605, 0, 0.689415038, 0)
+Main.Size = UDim2.new(0, 306, 0, 159)
+Main.Active = true
+Main.Draggable = true
+
+cmds.Name = "cmds"
+cmds.Parent = Main
+cmds.BackgroundColor3 = Color3.fromRGB(48, 193, 255)
+cmds.Position = UDim2.new(0, 0, 0.431817979, 0)
+cmds.Size = UDim2.new(0, 306, 0, 90)
+cmds.Font = Enum.Font.SourceSans
+cmds.Text = "cmds"
+cmds.TextColor3 = Color3.fromRGB(0, 0, 0)
+cmds.TextSize = 20.000
+cmds.MouseButton1Down:connect(function()
+	print('--//CMDS//----sniper--starglitcher--gale--cop--carnage-NPC--elio blasio--chips (eat chips??)--sex doll--neptune v--sonic (gota go fast)--gun--joy (like meme but diff animations)--ender (not fully fe but cool)--killbot v2--cat v2--chill (chilling)--lutris v2--memeus v2.5 (meme but upgraded)--meme (memeus but downgraded)--krystal dance--pen (use purple demonic great sword)--xester--caducus--minigun--broomstick--headless (rich man)--head hold--goopie--spider--orange justice (drinks*)--retard (yes)--floss (we like fortnite)--default dance (nerd)--smug (smug)--distract dance--russian kick--insanity powers--zen (be chilling but not chill)--car drift--hell robotics--touch kill--pillow--rainbow king------bread--genocider--abyss eye--rolex--triangle chat--take the l--naruto--sword--aureate--stand (its a stand ( items https://pastebin.com/raw/6shPGjRq)--rape--god mode-net fix--blackhole--flaming umbrella--rb sword (my fav use russos rb sword)--rc tank--sidestep--electro swing--spellcaster--neko--racer--pixel car--fire block--flip (do a flip or two)--christmas scythe--christmas sniper--r6 (be r6)--hand--naruto (naruto)--strong stand (strong stand (items --plane--bike--plane crash--void eye--scout (a scout--vapor gun--boobs----pumpkin lord--shooter fighter--titan--void duel--john doe (be john doe not fully fe)--boots--penguin dance--golem--chair (a chair)--grapper--chat spy (spy on the chat)--rtx graphics (my commputer broke)skateboard--eggdog (dog but a egg??)--stilts (stilt man)--table (table)--pyramid (dont you want to be a pyramid?)--wall (why be a wall when you can be a pyramid?)--fly (fly)--crybaby (a hub)--reach (reach with swords)--car (just a car position)--idk (idk)--mommy--animation (some cool animations)--rejoin ( you just rejoin)--topkek (gui)--arrowhub (gui)--mm2 (murder mystery 2)--reanimate--andromeda (gui)--kat (works with other games as well)--abj (a bizzar journy gui)--Arosia (gui)--LT2 (Lumber tycoon 2 kinda small)--Babft (build a boat for tresure)--clovr (vr with or without vr)--skeds vr (vr with vr needs midi hood, lav updo, pal hair)--karma ( a hub with stuff)--Selexity (a hub with lots of hat stuff)--fire god (you become a fire fighter)--admin (get inf yild)--sus (imposter frome amongus)--blink (z to blink)--boogabooga (the game)--jailbreak (may lag when loading-g-g-g-g-g-g)--smile (use pal hair ,brown hair ,chestnut bun and roblox girl hair)--astrava (a gui)--sharkbite (a gui for sharkbite)--the streets (gui for the streets)--dagood (da hood gui with unban)--babft builder (auto build for babft)')
+
+end)
+
+title.Name = "title"
+title.Parent = Main
+title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title.Size = UDim2.new(0, 306, 0, 50)
+title.Font = Enum.Font.SourceSans
+title.Text = "Deeri hub cmds"
+title.TextColor3 = Color3.fromRGB(0, 0, 0)
+title.TextSize = 14.000
